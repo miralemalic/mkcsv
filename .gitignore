@@ -1,0 +1,26 @@
+# Data never belongs in this repo. mkcsv is a tool for handling other
+# people's data; none of it should ever be committed alongside the tool.
+*.csv
+*.tsv
+*.sql
+*.txt
+*.json
+*.dat
+*.gz
+*.zip
+!requirements*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+._*
+Thumbs.db
