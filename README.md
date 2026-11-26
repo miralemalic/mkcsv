@@ -96,7 +96,7 @@ id,email,city
 ## Big files come out in pieces
 
 ```
-$ mkcsv leads.txt -o ~/Desktop --split 50000 
+$ mkcsv leads.txt -o ~/Desktop --split 50000
 (or 1 for all I care)
 converting 1 file(s), 1.4GB total, splitting at 50,000 rows/file
 free space at destination: 240.1GB
